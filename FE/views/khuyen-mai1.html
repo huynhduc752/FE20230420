@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+
+    
+    <link rel="stylesheet" href="../Css/layout.css">
+    <link rel="stylesheet" href="../Css/member.css">
+    <link rel="stylesheet" href="../Css/festival-go.css">
+    <link rel="stylesheet" href="../css/khuyen-mai.css">
+    
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+</head>
+<body  onscroll="myFunction()">
+    <header class="header">
+        <div class="top-header bg-cam px-57 py-2" id="top-head">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="address-head">
+                    <span><i class="fa-solid fa-location-dot color-wh"></i></span>
+                    <span class="text-white ml-2">Tìm cửa hàng gần bạn</span>
+                </div>
+                <div class="time-head d-flex color-white">
+                    <div class="time-start d-flex align-items-center mr-4">
+                        <span><i class="fa-solid fa-clock color-wh "></i></span>
+                        <span class="ml-2 text-white">Giờ mở cửa</span>
+                    </div>
+                    <div class="mr-2">
+                        <p class="mb-1 ">
+                            <span class="text-white">Siêu thị:</span> <span class="text-white">6:00 - 23:00 (T2-CN)</span>
+                        </p>
+                        <p class="mb-0">
+                            <span class="text-white">Cửa hàng:</span> <span class="text-white">0:00 - 24:00 (T2-CN)</span>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="lang-head">
+                        <div class="d-flex lang-head-content">
+                            <div class="d-flex justify-content-center bg-white" style="align-items: center; width:2.2rem; height:2.2rem; border-radius:50%; border:1px solid #fff">
+                                <span style="color: #ff8228;">VN</span>
+                            </div>
+                            <div class="d-flex justify-content-center" style="align-items: center;width:2.2rem; height:2.2rem; border-radius:50%;  border:1px solid #fff"">
+                                <span class="p-2 color-wh ">EN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class="search-input">
+                        <div class="d-flex form-search align-items-center">
+                            <div>
+                                <span><i class="fa-sharp font-13 text-white color-white fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                            <input type="text" class="p-2">
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="icon-head">
+                        <div class="d-flex justify-content-between icon-head-content">
+                            <div class="d-flex justify-content-center" style="align-items: center; width:2.2rem; height:2.2rem; border-radius:50%; border:1px solid #fff">
+                                <span><i  class="fa-brands text-white fa-facebook font-30" ></i></span>
+                            </div>
+                            <div class="d-flex justify-content-center bg-white" style="align-items: center;width:2.2rem; height:2.2rem; border-radius:50%;  border:1px solid #fff"">
+                                <span class="p-2 color-wh d-flex align-items-center"><i style="color: #ff8228;" class="fa-brands font-20 color-white fa-instagram"></i></span>
+                            </div>
+                            <div class="d-flex justify-content-center bg-white" style="align-items: center;width:2.2rem; height:2.2rem; border-radius:50%;  border:1px solid #fff"">
+                                <span class="p-2 color-wh d-flex align-items-center "><i style="color: #ff8228;" class="fa-brands font-13 color-white fa-youtube"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot-header px-57">
+            <nav>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="">
+                            <img src="../Images/layout/Logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul class="list-option mb-0 d-flex justify-content-between align-items-center">
+                            <li class="option">
+                                <a href="#" title="menu"> TIN TỨC </a>
+                            </li> 
+                            <li class="option">
+                                <a href="khuyen-mai.html" title="menu"> KHUYẾN MÃI </a>
+                            </li>
+                            <li class="option">
+                                <a href="su-kien.html" title="menu"> SỰ KIỆN </a>
+                            </li>
+                            <li class="option">
+                                <a href="member.html" title="menu"> CHƯƠNG TRÌNH THÀNH VIÊN </a>
+                            </li>
+                            <li class="option">
+                                <a href="festival-go.html" title="menu"> FESTIVAL GO </a>
+                            </li> 
+                            <li class="option pr-0">
+                                <a href="#" title="menu"> LIÊN HỆ </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- content -->
+    <section class="content-page">
+        <div class="container-fluid px-57 khuyen-mai">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="km-first">
+                        <h2>KHUYỄN MÃI</h2>
+                        <div>
+                            <img src="../images/khuyen-mai/km-0.png" alt="">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum </p>
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</h5>
+                        </div>
+                    </div>
+                    <div class="row km-list">
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col xs-12">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="../images/khuyen-mai/km-1.png" alt="">
+                                </div>
+                                <div class="title">
+                                    <p>Lorem ipsum </p>
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center w-100 m-3">
+                            <button class="btn bg-tim text-white">XEM THÊM</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="noi-bat">
+                        <h2 class="bg-tim text-center">
+                            NỔI BẬT
+                        </h2>
+                        <div class="item">
+                            <div class="img">
+                                <img src="../images/khuyen-mai/nb-img.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                </p>
+                                <p>
+                                    <a href="">Xem chi tiết >></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <img src="../images/khuyen-mai/nb-img.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                </p>
+                                <p>
+                                    <a href="">Xem chi tiết >></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <img src="../images/khuyen-mai/nb-img.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                </p>
+                                <p>
+                                    <a href="">Xem chi tiết >></a>
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer bg-cam px-57">
+        <div class="row align-items-center">   
+            <div class="col-2">
+                <div class="logo-footer">
+                    <div class="d-flex justify-content-center mx-auto logo-wh">
+                        <img src="../Images/layout/Logo-wh.png" alt="logo">
+                    </div>
+                    <div>
+                        <div class="icon-head">
+                            <div class="w-10 d-flex justify-content-between icon-head-content">
+                                <div class="d-flex justify-content-center" style="align-items: center; width:2.2rem; height:2.2rem; border-radius:50%; border:1px solid #fff">
+                                    <span><i  class="fa-brands text-white fa-facebook font-30" ></i></span>
+                                </div>
+                                <div class="d-flex justify-content-center bg-white" style="align-items: center;width:2.2rem; height:2.2rem; border-radius:50%;  border:1px solid #fff"">
+                                    <span class="p-2 color-wh d-flex align-items-center"><i style="color: #ff8228;" class="fa-brands font-20 color-white fa-instagram"></i></span>
+                                </div>
+                                <div class="d-flex justify-content-center bg-white" style="align-items: center;width:2.2rem; height:2.2rem; border-radius:50%;  border:1px solid #fff"">
+                                    <span class="p-2 color-wh d-flex align-items-center "><i style="color: #ff8228;" class="fa-brands font-13 color-white fa-youtube"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="memnu-footer row">
+                    <div class="col-6">
+                        <ul class="menu-bot">
+                            <li class="item-footer">
+                                <a href="#">Tin tức</a>
+                            </li>
+                            <li class="item-footer">
+                                <a href="#">Khuyến mại</a>
+                            </li>
+                            <li class="item-footer">
+                                <a href="#">Chương trình thành viên</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="menu-bot">
+                            <li class="item-footer">
+                                <a href="#">Sự kiện</a>
+                            </li>
+                            <li class="item-footer">
+                                <a href="#">Festival Go</a>
+                            </li>
+                            <li class="item-footer">
+                                <a href="#">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6 d-flex mx-auto justify-content-center">
+                <div class="sign-up">
+                    <div class="top-sign">
+                        <h3 class="font-25 text-white pt-3">
+                            Newsletter Sign Up
+                        </h3>
+                        <input type="text" class="input-sign mt-3">
+                    </div>
+                    <div class="add-footer">
+                        <ul>
+                            <li class="detail-add">
+                                <span>Địa chỉ:</span> <span class="ml-2"> 3-5 Phạm Văn Đồng, thành phố Nha Trang</span>
+                            </li>
+                            <li class="detail-add">
+                                <span>Hotline:</span> <span class="ml-2"> 089 808 9586</span>
+                            </li>
+                            <li class="detail-add">
+                                <span>Email:</span> <span class="ml-2"> cskh@festivalmarket.vn</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../Js/common.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $('.autoplay').slick({
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true,
+            });
+    </script>
+
+
+</body>
+</html>
